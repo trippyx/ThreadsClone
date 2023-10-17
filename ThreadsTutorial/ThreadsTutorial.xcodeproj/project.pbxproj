@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0C44B9872ADC3B2400176882 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C44B9862ADC3B2400176882 /* RegistrationView.swift */; };
 		0C44B98A2ADC459800176882 /* ThreadTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C44B9892ADC459800176882 /* ThreadTextFieldModifier.swift */; };
+		0C4FA9AA2ADF1199000FEC85 /* ThreadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4FA9A92ADF1199000FEC85 /* ThreadCell.swift */; };
 		0C51B40C2ADBE2B2006A6C81 /* ThreadsTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C51B40B2ADBE2B2006A6C81 /* ThreadsTutorialApp.swift */; };
 		0C51B40E2ADBE2B2006A6C81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C51B40D2ADBE2B2006A6C81 /* ContentView.swift */; };
 		0C51B4102ADBE2B3006A6C81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C51B40F2ADBE2B3006A6C81 /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		0C44B9862ADC3B2400176882 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		0C44B9892ADC459800176882 /* ThreadTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadTextFieldModifier.swift; sourceTree = "<group>"; };
+		0C4FA9A92ADF1199000FEC85 /* ThreadCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadCell.swift; sourceTree = "<group>"; };
 		0C51B4082ADBE2B2006A6C81 /* ThreadsTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreadsTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C51B40B2ADBE2B2006A6C81 /* ThreadsTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsTutorialApp.swift; sourceTree = "<group>"; };
 		0C51B40D2ADBE2B2006A6C81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -194,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				0CB0BD9E2ADDB07000A2E615 /* FeedView.swift */,
+				0C4FA9A92ADF1199000FEC85 /* ThreadCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				0CB0BD9F2ADDB07000A2E615 /* FeedView.swift in Sources */,
 				0C51B4262ADBE3A0006A6C81 /* LoginView.swift in Sources */,
 				0C51B40E2ADBE2B2006A6C81 /* ContentView.swift in Sources */,
+				0C4FA9AA2ADF1199000FEC85 /* ThreadCell.swift in Sources */,
 				0CB0BDAB2ADDB11800A2E615 /* ActivityView.swift in Sources */,
 				0CB0BDA72ADDB0E000A2E615 /* CreateThreadView.swift in Sources */,
 				0CB0BD9B2ADDAE4700A2E615 /* ThreadsTabView.swift in Sources */,
