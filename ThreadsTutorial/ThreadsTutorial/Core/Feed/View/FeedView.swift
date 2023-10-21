@@ -20,6 +20,7 @@ struct FeedView: View {
             .refreshable {
                 print("Refresh")
             }
+            
             .scrollIndicators(.never)
             .navigationTitle("Threads")
             .navigationBarTitleDisplayMode(.inline)
