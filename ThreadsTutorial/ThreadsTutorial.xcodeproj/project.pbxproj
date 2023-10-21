@@ -15,6 +15,8 @@
 		0C51B4102ADBE2B3006A6C81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C51B40F2ADBE2B3006A6C81 /* Assets.xcassets */; };
 		0C51B4132ADBE2B3006A6C81 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C51B4122ADBE2B3006A6C81 /* Preview Assets.xcassets */; };
 		0C51B4262ADBE3A0006A6C81 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C51B4252ADBE3A0006A6C81 /* LoginView.swift */; };
+		0CA3E63F2AE449CC0073A392 /* ProfileThreadFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA3E63E2AE449CC0073A392 /* ProfileThreadFilter.swift */; };
+		0CA3E6432AE452CC0073A392 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA3E6422AE452CC0073A392 /* EditProfileView.swift */; };
 		0CB0BD9B2ADDAE4700A2E615 /* ThreadsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB0BD9A2ADDAE4700A2E615 /* ThreadsTabView.swift */; };
 		0CB0BD9F2ADDB07000A2E615 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB0BD9E2ADDB07000A2E615 /* FeedView.swift */; };
 		0CB0BDA32ADDB0A300A2E615 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB0BDA22ADDB0A300A2E615 /* ExploreView.swift */; };
@@ -35,6 +37,8 @@
 		0C51B40F2ADBE2B3006A6C81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C51B4122ADBE2B3006A6C81 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0C51B4252ADBE3A0006A6C81 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		0CA3E63E2AE449CC0073A392 /* ProfileThreadFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileThreadFilter.swift; sourceTree = "<group>"; };
+		0CA3E6422AE452CC0073A392 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 		0CB0BD9A2ADDAE4700A2E615 /* ThreadsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsTabView.swift; sourceTree = "<group>"; };
 		0CB0BD9E2ADDB07000A2E615 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		0CB0BDA22ADDB0A300A2E615 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
@@ -141,7 +145,7 @@
 				0CB0BDA02ADDB09700A2E615 /* Explore */,
 				0CB0BD9C2ADDB05D00A2E615 /* Feed */,
 				0CB0BDAC2ADDB12800A2E615 /* Profile */,
-				0CB0BDA42ADDB0BC00A2E615 /* Threads */,
+				0CB0BDA42ADDB0BC00A2E615 /* ThreadsCreation */,
 				0CB0BD992ADDAE1F00A2E615 /* TabBar */,
 				0C51B4232ADBE367006A6C81 /* Root */,
 			);
@@ -179,6 +183,30 @@
 				0C44B9862ADC3B2400176882 /* RegistrationView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		0CA3E63D2AE442410073A392 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				0CA3E63E2AE449CC0073A392 /* ProfileThreadFilter.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		0CA3E6402AE451E00073A392 /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				0CA3E6412AE452C00073A392 /* View */,
+			);
+			path = EditProfile;
+			sourceTree = "<group>";
+		};
+		0CA3E6412AE452C00073A392 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0CA3E6422AE452CC0073A392 /* EditProfileView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		0CB0BD992ADDAE1F00A2E615 /* TabBar */ = {
@@ -222,12 +250,12 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		0CB0BDA42ADDB0BC00A2E615 /* Threads */ = {
+		0CB0BDA42ADDB0BC00A2E615 /* ThreadsCreation */ = {
 			isa = PBXGroup;
 			children = (
 				0CB0BDA52ADDB0C600A2E615 /* View */,
 			);
-			path = Threads;
+			path = ThreadsCreation;
 			sourceTree = "<group>";
 		};
 		0CB0BDA52ADDB0C600A2E615 /* View */ = {
@@ -257,6 +285,8 @@
 		0CB0BDAC2ADDB12800A2E615 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				0CA3E6402AE451E00073A392 /* EditProfile */,
+				0CA3E63D2AE442410073A392 /* Modal */,
 				0CB0BDAD2ADDB13100A2E615 /* View */,
 			);
 			path = Profile;
@@ -351,12 +381,14 @@
 			files = (
 				0CC2DF222AE41E9E003AEF8E /* CircularProfileImage.swift in Sources */,
 				0CB0BD9F2ADDB07000A2E615 /* FeedView.swift in Sources */,
+				0CA3E6432AE452CC0073A392 /* EditProfileView.swift in Sources */,
 				0C51B4262ADBE3A0006A6C81 /* LoginView.swift in Sources */,
 				0C51B40E2ADBE2B2006A6C81 /* ContentView.swift in Sources */,
 				0C4FA9AA2ADF1199000FEC85 /* ThreadCell.swift in Sources */,
 				0CB0BDAB2ADDB11800A2E615 /* ActivityView.swift in Sources */,
 				0CC2DF242AE41F35003AEF8E /* UserCell.swift in Sources */,
 				0CB0BDA72ADDB0E000A2E615 /* CreateThreadView.swift in Sources */,
+				0CA3E63F2AE449CC0073A392 /* ProfileThreadFilter.swift in Sources */,
 				0CB0BD9B2ADDAE4700A2E615 /* ThreadsTabView.swift in Sources */,
 				0C51B40C2ADBE2B2006A6C81 /* ThreadsTutorialApp.swift in Sources */,
 				0C44B98A2ADC459800176882 /* ThreadTextFieldModifier.swift in Sources */,
