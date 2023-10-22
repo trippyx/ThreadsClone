@@ -32,7 +32,6 @@ class UserService{
             
             self.currentUser = user
             
-            print("Current User \(currentUser)")
             
         }catch{
             print(error.localizedDescription)
@@ -40,7 +39,13 @@ class UserService{
         
     }
     
-    
+    static func fetchUsers() async throws -> [User]{
+        guard let currentUserUid = Auth.auth().currentUser?.uid else { return []}
+        let snapShot = try await Firestore.firestore().collection("users").getDocuments()
+        let users = snapShot.documents.compactMap({try? $0.data(as: User.self)})
+        
+        return users.filter({$0.id != currentUserUid})
+    }
     
     func resetUser(){
         self.currentUser = nil

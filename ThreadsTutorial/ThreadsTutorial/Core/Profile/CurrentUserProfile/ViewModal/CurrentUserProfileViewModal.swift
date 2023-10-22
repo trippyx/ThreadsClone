@@ -8,7 +8,7 @@
 import Foundation
 import Combine
 
-class ProfileViewModal:ObservableObject{
+class CurrentUserProfileViewModal:ObservableObject{
     @Published var currentUser:User?
     
     var cancllable = Set<AnyCancellable>()
