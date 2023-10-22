@@ -8,10 +8,9 @@
 import SwiftUI
 
 struct RegistrationView: View {
-    @State private var email:String = ""
-    @State private var password:String = ""
-    @State private var fullName:String = ""
-    @State private var userName:String = ""
+    
+    @StateObject var viewModal = RegistrationViewModal()
+    
     @Environment(\.dismiss) var dismiss
     var body: some View {
         VStack{
@@ -24,23 +23,28 @@ struct RegistrationView: View {
             
             VStack(content: {
                 
-                TextField("Enter your email", text: $email)
+                TextField("Enter your email", text:$viewModal.email)
+                    .textInputAutocapitalization(.never)
                     .modifier(ThreadTextFieldModifier())
                 
                 
-                SecureField("Enter your password", text: $password)
+                SecureField("Enter your password", text: $viewModal.password)
                     .modifier(ThreadTextFieldModifier())
                 
-                TextField("Enter your full name", text: $fullName)
+                TextField("Enter your full name", text: $viewModal.fullName)
                     .modifier(ThreadTextFieldModifier())
                 
-                TextField("Enter your username", text: $userName)
+                TextField("Enter your username", text: $viewModal.userName)
+                    .textInputAutocapitalization(.never)
                     .modifier(ThreadTextFieldModifier())
+                
                 
             })
             
             Button(action: {
-                
+                Task {
+                    try await viewModal.createUser()
+                }
             }, label: {
                 Text("Sign Up")
                     .font(.subheadline)
