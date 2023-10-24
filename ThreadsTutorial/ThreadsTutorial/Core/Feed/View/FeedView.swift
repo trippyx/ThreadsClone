@@ -8,17 +8,21 @@
 import SwiftUI
 
 struct FeedView: View {
+    @StateObject var viewModal = FeedViewModal()
     var body: some View {
         NavigationStack {
             ScrollView {
                 LazyVStack{
-                    ForEach(0...10,id:\.self){ thread in
-                       ThreadCell()
+                    ForEach(viewModal.threads,id:\.id){ thread in
+                        ThreadCell(thread: thread)
                     }
                 }
             }
             .refreshable {
-                print("Refresh")
+                Task {
+                    try await viewModal.fetchThreads()
+                }
+              
             }
             
             .scrollIndicators(.never)

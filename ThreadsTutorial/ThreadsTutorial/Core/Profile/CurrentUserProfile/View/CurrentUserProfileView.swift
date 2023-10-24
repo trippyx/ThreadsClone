@@ -42,7 +42,7 @@ struct CurrentUserProfileView: View {
                             }
                     })
                     
-                    UserContentListView()
+                    UserContentListView(user: currentUser ?? DeveloperPreview.shared.user)
                 }
             }
             .sheet(isPresented: $showEditProfile, content: {

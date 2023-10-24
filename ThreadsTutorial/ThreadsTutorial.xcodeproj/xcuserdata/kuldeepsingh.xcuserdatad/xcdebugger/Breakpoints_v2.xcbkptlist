@@ -14,10 +14,57 @@
             filePath = "ThreadsTutorial/Services/UserService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
             landmarkName = "updateUserProfileImage(withImageUrl:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "611AB350-25A5-4FC8-86BB-B6461BEF341E - c3e7a49edf0a2f0f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ThreadsTutorial.UserService.updateUserProfileImage(withImageUrl: Swift.String) async throws -&gt; ()"
+                  moduleName = "ThreadsTutorial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuldeepsingh/Desktop/Projects/ThreadsClone/ThreadsTutorial/ThreadsTutorial/Services/UserService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "611AB350-25A5-4FC8-86BB-B6461BEF341E - b9a4624676ed6f01"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ThreadsTutorial.UserService.updateUserProfileImage(withImageUrl: Swift.String) async throws -&gt; ()"
+                  moduleName = "ThreadsTutorial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuldeepsingh/Desktop/Projects/ThreadsClone/ThreadsTutorial/ThreadsTutorial/Services/UserService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "611AB350-25A5-4FC8-86BB-B6461BEF341E - c3e7a49edf0a2f0f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ThreadsTutorial.UserService.updateUserProfileImage(withImageUrl: Swift.String) async throws -&gt; ()"
+                  moduleName = "ThreadsTutorial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuldeepsingh/Desktop/Projects/ThreadsClone/ThreadsTutorial/ThreadsTutorial/Services/UserService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "256">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -145,6 +192,68 @@
             endingLineNumber = "112"
             landmarkName = "body"
             landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "DC8EF772-3CE8-4625-9806-F96CBF2F7ED2 - d94937b7d9a1f4ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in closure #1 () -&gt; () in closure #2 () -&gt; SwiftUI.Button&lt;SwiftUI.Text&gt; in closure #2 () -&gt; &lt;&lt;opaque return type of static SwiftUI.ToolbarContentBuilder.buildBlock&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_0_0: SwiftUI.ToolbarContent, &#x3c4;_0_1: SwiftUI.ToolbarContent&gt;(&#x3c4;_0_0, &#x3c4;_0_1) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.toolbar&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToolbarContent&gt;(content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in ThreadsTutorial.EditProfileView.body.getter : some"
+                  moduleName = "ThreadsTutorial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuldeepsingh/Desktop/Projects/ThreadsClone/ThreadsTutorial/ThreadsTutorial/Core/Profile/EditProfile/View/EditProfileView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "DC8EF772-3CE8-4625-9806-F96CBF2F7ED2 - 8896646d9099e4cf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async throws -&gt; () in closure #1 () -&gt; () in closure #2 () -&gt; SwiftUI.Button&lt;SwiftUI.Text&gt; in closure #2 () -&gt; &lt;&lt;opaque return type of static SwiftUI.ToolbarContentBuilder.buildBlock&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_0_0: SwiftUI.ToolbarContent, &#x3c4;_0_1: SwiftUI.ToolbarContent&gt;(&#x3c4;_0_0, &#x3c4;_0_1) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.toolbar&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToolbarContent&gt;(content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in ThreadsTutorial.EditProfileView.body.getter : some"
+                  moduleName = "ThreadsTutorial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuldeepsingh/Desktop/Projects/ThreadsClone/ThreadsTutorial/ThreadsTutorial/Core/Profile/EditProfile/View/EditProfileView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "DC8EF772-3CE8-4625-9806-F96CBF2F7ED2 - 8832b63976a238bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in closure #1 () -&gt; () in closure #2 () -&gt; SwiftUI.Button&lt;SwiftUI.Text&gt; in closure #2 () -&gt; &lt;&lt;opaque return type of static SwiftUI.ToolbarContentBuilder.buildBlock&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_0_0: SwiftUI.ToolbarContent, &#x3c4;_0_1: SwiftUI.ToolbarContent&gt;(&#x3c4;_0_0, &#x3c4;_0_1) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.toolbar&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToolbarContent&gt;(content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in ThreadsTutorial.EditProfileView.body.getter : some"
+                  moduleName = "ThreadsTutorial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuldeepsingh/Desktop/Projects/ThreadsClone/ThreadsTutorial/ThreadsTutorial/Core/Profile/EditProfile/View/EditProfileView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "DC8EF772-3CE8-4625-9806-F96CBF2F7ED2 - e36e7681a7231a9a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in closure #1 () -&gt; () in closure #2 () -&gt; SwiftUI.Button&lt;SwiftUI.Text&gt; in closure #2 () -&gt; &lt;&lt;opaque return type of static SwiftUI.ToolbarContentBuilder.buildBlock&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_0_0: SwiftUI.ToolbarContent, &#x3c4;_0_1: SwiftUI.ToolbarContent&gt;(&#x3c4;_0_0, &#x3c4;_0_1) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.toolbar&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToolbarContent&gt;(content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in ThreadsTutorial.EditProfileView.body.getter : some"
+                  moduleName = "ThreadsTutorial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuldeepsingh/Desktop/Projects/ThreadsClone/ThreadsTutorial/ThreadsTutorial/Core/Profile/EditProfile/View/EditProfileView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
