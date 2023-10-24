@@ -6,11 +6,18 @@
 //
 
 import SwiftUI
+import PhotosUI
 
 struct EditProfileView: View {
+    let user : User
     @State private var bio = ""
     @State private var link = ""
     @State private var isPrivateProfile = false
+    @Environment(\.dismiss) var dismiss
+    @StateObject var viewModal = EditProfileViewModal() 
+   
+    
+    
     var body: some View {
         NavigationStack {
             ZStack(content: {
@@ -25,11 +32,22 @@ struct EditProfileView: View {
                             Text("Name")
                                 .fontWeight(.semibold)
                             
-                            Text("Spider Man")
+                            Text(user.fullName)
                                 
                         })
                         Spacer()
-                        CircularProfileImage()
+//                        CircularProfileImage()
+                        PhotosPicker(selection: $viewModal.selectedItem) {
+                            if let image = viewModal.profileImage{
+                                image
+                                    .resizable()
+                                    .scaledToFill()
+                                    .frame(width: 40, height: 40)
+                                    .clipShape(Circle())
+                            }else{
+                                CircularProfileImage(user: user, size: .medium)
+                            }
+                        }
                     })
                     
                     Divider()
@@ -77,7 +95,7 @@ struct EditProfileView: View {
                 
                 ToolbarItem(placement: .topBarLeading) {
                     Button(action: {
-                        
+                        dismiss()
                     }, label: {
                        Text("Cancel")
                             .font(.subheadline)
@@ -90,7 +108,10 @@ struct EditProfileView: View {
                 
                 ToolbarItem(placement: .topBarTrailing) {
                     Button(action: {
-                        
+                        Task {
+                            try await viewModal.updateUserData()
+                            dismiss()
+                        }
                     }, label: {
                        Text("Done")
                             .font(.subheadline)
@@ -107,5 +128,5 @@ struct EditProfileView: View {
 }
 
 #Preview {
-    EditProfileView()
+    EditProfileView(user: DeveloperPreview.shared.user)
 }

@@ -6,10 +6,12 @@
 //
 
 import SwiftUI
+import _PhotosUI_SwiftUI
 
 struct CurrentUserProfileView: View {
    
     @StateObject var viewModal = CurrentUserProfileViewModal()
+    @State private var showEditProfile = false
     
     private var currentUser:User?{
         return viewModal.currentUser
@@ -20,10 +22,12 @@ struct CurrentUserProfileView: View {
                 VStack(spacing:20) {
                     
                    ProfileHeaderView(user: currentUser)
-                
                     
                     Button(action: {
-                        
+                        withAnimation(.bouncy) {
+                            showEditProfile.toggle()
+                        }
+                       
                     }, label: {
                         Text("Edit Profile")
                             .font(.subheadline)
@@ -41,6 +45,13 @@ struct CurrentUserProfileView: View {
                     UserContentListView()
                 }
             }
+            .sheet(isPresented: $showEditProfile, content: {
+                
+                if let user = currentUser{
+                    EditProfileView(user: user)
+                }
+               
+            })
             .toolbar(content: {
                 ToolbarItem(placement: .topBarTrailing) {
                     Button {

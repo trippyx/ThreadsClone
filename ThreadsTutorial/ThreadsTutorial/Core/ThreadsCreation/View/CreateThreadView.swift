@@ -15,7 +15,7 @@ struct CreateThreadView: View {
         NavigationStack {
             VStack(content: {
                 HStack(alignment: .top, spacing: 4, content: {
-                    CircularProfileImage()
+                    CircularProfileImage(user: nil, size: .small)
                     VStack(alignment: .leading,spacing: 4, content: {
                         Text("Spider man")
                             .fontWeight(.semibold)

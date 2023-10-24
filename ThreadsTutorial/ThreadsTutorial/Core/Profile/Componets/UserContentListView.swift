@@ -10,7 +10,7 @@ import SwiftUI
 struct UserContentListView: View {
     @State private var selectedFilter:ProfileThreadFilter = .threads
     @Namespace var animation
-    
+    var scaleEffect:CGFloat = 1.0
     private var filterBarWidth:CGFloat{
         let count = CGFloat(ProfileThreadFilter.allCases.count)
         return UIScreen.main.bounds.width / count - 16

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "13ACC1EB-4FEC-489B-A29F-53BFD0D9054A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "611AB350-25A5-4FC8-86BB-B6461BEF341E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThreadsTutorial/Services/UserService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "updateUserProfileImage(withImageUrl:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BDE3A4BF-8695-4B5B-9CD9-89C684775F91"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThreadsTutorial/Core/Profile/EditProfile/ViewModal/EditProfileViewModal.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "updateProfileImage()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BDE3A4BF-8695-4B5B-9CD9-89C684775F91 - 3b400a3ed46c3b3c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ThreadsTutorial.EditProfileViewModal.updateProfileImage() async throws -&gt; ()"
+                  moduleName = "ThreadsTutorial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuldeepsingh/Desktop/Projects/ThreadsClone/ThreadsTutorial/ThreadsTutorial/Core/Profile/EditProfile/ViewModal/EditProfileViewModal.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "BDE3A4BF-8695-4B5B-9CD9-89C684775F91 - d5c2aca9feb57f22"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ThreadsTutorial.EditProfileViewModal.updateProfileImage() async throws -&gt; ()"
+                  moduleName = "ThreadsTutorial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuldeepsingh/Desktop/Projects/ThreadsClone/ThreadsTutorial/ThreadsTutorial/Core/Profile/EditProfile/ViewModal/EditProfileViewModal.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "284">
+               </Location>
+               <Location
+                  uuid = "BDE3A4BF-8695-4B5B-9CD9-89C684775F91 - f51c9ec095df0527"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for ThreadsTutorial.EditProfileViewModal.updateProfileImage() async throws -&gt; ()"
+                  moduleName = "ThreadsTutorial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuldeepsingh/Desktop/Projects/ThreadsClone/ThreadsTutorial/ThreadsTutorial/Core/Profile/EditProfile/ViewModal/EditProfileViewModal.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "292">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C2CBB709-4B71-4D67-9D11-EB98B640D597"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThreadsTutorial/Core/Profile/EditProfile/ViewModal/EditProfileViewModal.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "updateUserData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C2CBB709-4B71-4D67-9D11-EB98B640D597 - 1be2b6bea9e4ddd3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ThreadsTutorial.EditProfileViewModal.updateUserData() async throws -&gt; ()"
+                  moduleName = "ThreadsTutorial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuldeepsingh/Desktop/Projects/ThreadsClone/ThreadsTutorial/ThreadsTutorial/Core/Profile/EditProfile/ViewModal/EditProfileViewModal.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "C2CBB709-4B71-4D67-9D11-EB98B640D597 - 6fd4c42e8045800b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) await resume partial function for ThreadsTutorial.EditProfileViewModal.updateUserData() async throws -&gt; ()"
+                  moduleName = "ThreadsTutorial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuldeepsingh/Desktop/Projects/ThreadsClone/ThreadsTutorial/ThreadsTutorial/Core/Profile/EditProfile/ViewModal/EditProfileViewModal.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DC8EF772-3CE8-4625-9806-F96CBF2F7ED2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThreadsTutorial/Core/Profile/EditProfile/View/EditProfileView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DC918024-E84A-40D3-AF84-954EBBB9D1F2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThreadsTutorial/Services/ImageUploader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "uploadImage(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9C646774-21D4-4E79-9EC2-BC670DC1957A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ThreadsTutorial/Services/ImageUploader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "uploadImage(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9C646774-21D4-4E79-9EC2-BC670DC1957A - 72cba357f9ec917e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for static ThreadsTutorial.ImageUploader.uploadImage(__C.UIImage) async throws -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "ThreadsTutorial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuldeepsingh/Desktop/Projects/ThreadsClone/ThreadsTutorial/ThreadsTutorial/Services/ImageUploader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "764">
+               </Location>
+               <Location
+                  uuid = "9C646774-21D4-4E79-9EC2-BC670DC1957A - 97ccb434182d4f59"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for static ThreadsTutorial.ImageUploader.uploadImage(__C.UIImage) async throws -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "ThreadsTutorial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuldeepsingh/Desktop/Projects/ThreadsClone/ThreadsTutorial/ThreadsTutorial/Services/ImageUploader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "9C646774-21D4-4E79-9EC2-BC670DC1957A - 5b3c069437dd2d60"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for static ThreadsTutorial.ImageUploader.uploadImage(__C.UIImage) async throws -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "ThreadsTutorial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuldeepsingh/Desktop/Projects/ThreadsClone/ThreadsTutorial/ThreadsTutorial/Services/ImageUploader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "9C646774-21D4-4E79-9EC2-BC670DC1957A - 30e3af73a7674b63"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for static ThreadsTutorial.ImageUploader.uploadImage(__C.UIImage) async throws -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "ThreadsTutorial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuldeepsingh/Desktop/Projects/ThreadsClone/ThreadsTutorial/ThreadsTutorial/Services/ImageUploader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

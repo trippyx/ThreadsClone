@@ -7,14 +7,21 @@
 
 import Foundation
 import Combine
+import PhotosUI
+import _PhotosUI_SwiftUI
+import SwiftUI
+
 
 class CurrentUserProfileViewModal:ObservableObject{
     @Published var currentUser:User?
+    
+    
     
     var cancllable = Set<AnyCancellable>()
     
     init(){
         setupSubscibers()
+    
     }
     
     private func setupSubscibers(){
@@ -22,6 +29,9 @@ class CurrentUserProfileViewModal:ObservableObject{
             self?.currentUser = userData
         }.store(in: &cancllable)
     }
+    
+    
+ 
     
         
     
